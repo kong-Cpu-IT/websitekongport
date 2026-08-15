@@ -1,24 +1,51 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navigation } from "@/components/portfolio/navigation";
+import { HeroSection } from "@/components/portfolio/hero-section";
+import { AboutSection } from "@/components/portfolio/about-section";
+import { CertificatesSection } from "@/components/portfolio/certificates-section";
+import { ProjectsSection } from "@/components/portfolio/projects-section";
+import { SkillsSection } from "@/components/portfolio/skills-section";
+import { ContactSection } from "@/components/portfolio/contact-section";
+import { Footer } from "@/components/portfolio/footer";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Nattapong S. (Alex) | Frontend Developer & CS Student" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Nattapong S. (Alex), a Computer Science student at Kasetsart University and aspiring frontend developer passionate about React, Tailwind CSS, and UI/UX.",
+      },
+      {
+        property: "og:title",
+        content: "Nattapong S. (Alex) | Frontend Developer & CS Student",
+      },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Nattapong S. (Alex), a Computer Science student at Kasetsart University and aspiring frontend developer.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground">
+      <Navigation />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <CertificatesSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   );
 }
