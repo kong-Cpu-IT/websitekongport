@@ -12,20 +12,20 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Nattapong S. (Alex) | Frontend Developer & CS Student" },
+      { title: "Kongphon Y. (Kong) | Frontend Developer & CS Student" },
       {
         name: "description",
         content:
-          "Portfolio of Nattapong S. (Alex), a Computer Science student at Kasetsart University and aspiring frontend developer passionate about React, Tailwind CSS, and UI/UX.",
+          "Portfolio of Kongphon Y. (Kong), a Computer Science student at Kasetsart University and aspiring frontend developer passionate about React, Tailwind CSS, and UI/UX.",
       },
       {
         property: "og:title",
-        content: "Nattapong S. (Alex) | Frontend Developer & CS Student",
+        content: "Kongphon Y. (Kong) | Frontend Developer & CS Student",
       },
       {
         property: "og:description",
         content:
-          "Portfolio of Nattapong S. (Alex), a Computer Science student at Kasetsart University and aspiring frontend developer.",
+          "Portfolio of Kongphon Y. (Kong), a Computer Science student at Kasetsart University and aspiring frontend developer.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

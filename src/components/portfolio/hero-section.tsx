@@ -20,9 +20,9 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Nattapong S.{" "}
+              Kongphon Y.{" "}
               <span className="block text-2xl font-medium text-muted-foreground sm:text-3xl">
-                (Alex)
+                (Kong)
               </span>
             </h1>
 
@@ -34,7 +34,7 @@ export function HeroSection() {
             <div className="flex flex-col items-center gap-3 text-sm text-muted-foreground md:items-start">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>nattapong.s***@email.com</span>
+                <span>Kong********@email.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-primary" />
@@ -77,7 +77,7 @@ export function HeroSection() {
             <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-glass-border shadow-2xl sm:h-80 sm:w-80">
               <img
                 src={profileImage}
-                alt="Nattapong S. (Alex) profile picture"
+                alt="Kongphon Y. (Kong) profile picture"
                 className="h-full w-full object-cover"
                 width={816}
                 height={816}

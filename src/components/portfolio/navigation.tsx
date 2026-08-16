@@ -37,7 +37,7 @@ export function Navigation() {
           href="#"
           className="text-lg font-bold tracking-tight text-foreground"
         >
-          <span className="gradient-text">Alex</span>
+          <span className="gradient-text">Kong</span>
           <span className="text-muted-foreground">.dev</span>
         </a>
 
