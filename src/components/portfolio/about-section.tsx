@@ -13,7 +13,7 @@ const education = [
   {
     icon: BookOpen,
     title: "High School Diploma (Science-Math)",
-    school: "Suthee Witthaya School (Chinese language)",
+    school: "Suthee Witthaya School",
     period: "2020 - 2023",
     detail: "GPA: 3.6x",
   },
