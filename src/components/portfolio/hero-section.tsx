@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "./scroll-reveal";
-import profileImage from "@/assets/profile.jpg";
+import profileAsset from "@/assets/profile.jpg.asset.json";
 
 export function HeroSection() {
   return (
@@ -75,13 +75,13 @@ export function HeroSection() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-full bg-gradient-to-tr from-primary/30 to-primary-glow/30 blur-2xl" />
             <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-glass-border shadow-2xl sm:h-80 sm:w-80">
-              <img
-                src={profileImage}
-                alt="Kongphon Y. (Kong) profile picture"
-                className="h-full w-full object-cover"
-                width={816}
-                height={816}
-              />
+                <img
+                  src={profileAsset.url}
+                  alt="Kongphon Y. (Kong) profile picture"
+                  className="h-full w-full object-cover"
+                  width={816}
+                  height={816}
+                />
             </div>
           </div>
         </ScrollReveal>
