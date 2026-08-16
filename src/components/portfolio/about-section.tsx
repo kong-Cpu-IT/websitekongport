@@ -5,7 +5,7 @@ import { ScrollReveal } from "./scroll-reveal";
 const education = [
   {
     icon: GraduationCap,
-    title: "Bachelor of Science in Computer Science and Information Technology",
+    title: "Computer Science",
     school: "Faculty of Information Technology, Thepsatri Rajabhat University",
     period: "2024 - Present",
     detail: "GPA: 3.xx",
