@@ -38,11 +38,11 @@ export function HeroSection() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>08x-xxx-5678</span>
+                <span>086-xxx-xxxx</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span>Bangkok, Thailand</span>
+                <span>Saraburi, Thailand</span>
               </div>
             </div>
 
