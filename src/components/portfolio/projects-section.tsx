@@ -131,8 +131,9 @@ export function ProjectsSection() {
                     variant="ghost"
                     size="sm"
                     className="px-0 text-primary hover:bg-transparent hover:text-primary/80"
+                    aria-label={`View details about ${item.title}`}
                   >
-                    Learn more
+                    {item.category === "Project" ? "View project details" : "Read about this activity"}
                     <ExternalLink className="ml-1 h-3.5 w-3.5" />
                   </Button>
                 </CardContent>
