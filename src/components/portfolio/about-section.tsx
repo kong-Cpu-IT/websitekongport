@@ -5,17 +5,17 @@ import { ScrollReveal } from "./scroll-reveal";
 const education = [
   {
     icon: GraduationCap,
-    title: "Bachelor of Science in Computer Science",
-    school: "Faculty of Science, Kasetsart University",
-    period: "2022 - Present",
+    title: "Bachelor of Science in Computer Science and Information Technology",
+    school: "Faculty of Information Technology, Thepsatri Rajabhat University",
+    period: "2024 - Present",
     detail: "GPA: 3.xx",
   },
   {
     icon: BookOpen,
     title: "High School Diploma (Science-Math)",
-    school: "Demonstration School",
-    period: "2019 - 2022",
-    detail: "GPA: 3.8x",
+    school: "Suthee Witthaya School (Chinese language)",
+    period: "2020 - 2023",
+    detail: "GPA: 3.6x",
   },
 ];
 
