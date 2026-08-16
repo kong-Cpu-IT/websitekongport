@@ -8,7 +8,7 @@ export function Footer() {
           © 2026 Kongphon Y. All rights reserved.
         </p>
         <p className="flex items-center gap-1 text-sm text-muted-foreground">
-          Made with <Heart className="h-4 w-4 fill-primary text-primary" /> in Bangkok
+          Made with <Heart className="h-4 w-4 fill-primary text-primary" /> in Lopburi
         </p>
       </div>
     </footer>
